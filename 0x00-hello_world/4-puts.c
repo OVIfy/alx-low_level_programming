@@ -2,7 +2,7 @@
 #include <string.h>
 /**
 * main - starting point of all C programs
-* Return: returns an integer 
+* Return: returns an integer
 */
 int main(void)
 {
