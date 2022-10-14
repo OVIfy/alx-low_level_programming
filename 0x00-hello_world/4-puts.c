@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main function
+ * main - starting point of C
+ * Return - integer 
 */
 int main(void)
 {
