@@ -16,5 +16,5 @@ int main(void)
 		if (ch == 'z')
 		putchar('\n');
 	}
-	return(0);
+	return (0);
 }
