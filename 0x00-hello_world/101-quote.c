@@ -9,7 +9,6 @@
 int main(void)
 {
 	char q[30] = "- Dora Korpar, 2015-10-19\n";
-	
 	fprintf(stderr, "and that piece of art is useful\" %s", q);
 	return (1);
 }
