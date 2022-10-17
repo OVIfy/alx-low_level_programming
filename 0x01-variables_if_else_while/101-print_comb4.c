@@ -17,7 +17,7 @@ int main(void)
 		for (d = 48; d <= 57; d++)
 		{
 			for (e = 48; e <= 57; e++)
-				{	
+			{	
 				if (e > d && d > num)
 				{
 					putchar(num + '\0');
@@ -29,7 +29,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				}	
+			}	
 		}
 
 	}
