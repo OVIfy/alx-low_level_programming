@@ -1,11 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
 * main - this function is the entry function for all C programs
 * Return: it returns an integer
 */
 int main(void)
 {
-	int n = 5;
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	if(n > 0)
 	printf("%d is positive\n",n);
