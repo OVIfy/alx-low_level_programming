@@ -19,7 +19,11 @@ int main(void)
 			{
 				putchar(num + '\0');
 				putchar(d + '\0');
-				putchar(' ');
+				if (num + d != 113)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
