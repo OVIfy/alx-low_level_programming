@@ -8,7 +8,7 @@ int main(void)
 	char ch = 'a';
 	int i = 0;
 
-	for (ch = 'a'; ch <= 'z'; ++ch)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 		if (ch == 'z')
@@ -18,7 +18,7 @@ int main(void)
 			i++;
 			putchar(ch);
 		}
-		if(i == 10)
+		if (i == 10)
 			break;
 	}
 	return (0);
