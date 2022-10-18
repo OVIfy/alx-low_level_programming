@@ -10,12 +10,12 @@ int print_sign(int num)
 
 	if (num > 0)
 	{
-		printf("+");
+		_putchar('+');
 		valid = 1;
 	}
 	if (num < 0)
 	{
-		printf("-");
+		_putchar('-');
 		valid = -1;
 	}
 	if (num == 0)
