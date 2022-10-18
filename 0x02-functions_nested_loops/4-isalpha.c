@@ -2,7 +2,6 @@
 /**
 * _isalpha - checks if argument is an alphabete
 * @c: character to be checked
-
 * Return: 1 if number is a small letter , 0 if it isn't
 */
 int _isalpha(char c)
@@ -12,7 +11,7 @@ int _isalpha(char c)
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		if(l == c)
+		if (l == c)
 		{
 			valid = 1;
 			break;
