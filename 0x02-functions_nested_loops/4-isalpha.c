@@ -19,7 +19,7 @@ int _isalpha(char c)
 	}
 	for (l = 'A'; l <= 'Z'; l++)
 	{
-		if(l == c)
+		if (l == c)
 		{
 			valid = 1;
 			break;
