@@ -23,12 +23,3 @@ void print_alphabet_x10(void)
                         break;
         }
 }
-/**
-* main - entry point of all C programms
-* Return: returns an integer
-*/
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
