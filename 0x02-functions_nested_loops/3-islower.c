@@ -21,16 +21,3 @@ int _islower(char c)
 
         return valid;
 }
-
-
-/**
-* main - entry point of all C programms
-* Return: returns an integer
-*/
-int main(void)
-{
-	int test;
-	test = _islower(108);
-	printf("%u\n",test);
-	return (0);
-}
