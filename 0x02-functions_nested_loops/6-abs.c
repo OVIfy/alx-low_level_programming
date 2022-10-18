@@ -7,18 +7,11 @@
 */
 int _abs(int num)
 {
+	int ab;
 
-}
-
-
-/**
-* main - entry point of all C programms
-* Return: returns an integer
-*/
-int main(void)
-{
-	int test;
-	test = _isalpha(';');
-	printf("%u\n",test);
-	return (0);
+	if (num >= 0)
+		ab = num;
+	if (num < 0)
+		ab = -num;
+	return ab;
 }
