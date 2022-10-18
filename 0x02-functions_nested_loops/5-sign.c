@@ -25,18 +25,4 @@ int print_sign(int num)
 	}
 	return valid;
 }
-/**
-* main - entry point of all C programms
-* Return: returns an integer
-*/
-int main(void)
-{
-	int r;
-	
-	r = print_sign(-97);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
-}
+
