@@ -16,7 +16,7 @@ int _islower(char c)
 			valid = 1;
 			break;
 		}
-        }
+	}
 
 	return (valid);
 }
