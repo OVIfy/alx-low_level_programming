@@ -7,37 +7,25 @@
 */
 int _isalpha(char c)
 {
-        int valid = 0;
-        char l = 'a';
+	int valid = 0;
+	char l = 'a';
 
-        for (l = 'a'; l <= 'z'; l++)
-        {
-                if(l == c)
-                {
-                        valid = 1;
-                        break;
-                }
-        }
+	for (l = 'a'; l <= 'z'; l++)
+	{
+		if(l == c)
+		{
+			valid = 1;
+			break;
+		}
+	}
 	for (l = 'A'; l <= 'Z'; l++)
-        {
-                if(l == c)
-                {
-                        valid = 1;
-                        break;
-                }
-        }
-        return valid;
+	{
+		if(l == c)
+		{
+			valid = 1;
+			break;
+		}
+	}
+	return (valid);
 }
 
-
-/**
-* main - entry point of all C programms
-* Return: returns an integer
-*/
-int main(void)
-{
-	int test;
-	test = _isalpha(';');
-	printf("%u\n",test);
-	return (0);
-}
