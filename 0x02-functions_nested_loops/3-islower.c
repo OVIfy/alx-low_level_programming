@@ -13,7 +13,7 @@ int _islower(char c)
 	{
 		if(l == c)
 		{
-			1valid = 1;
+			valid = 1;
 			break;
 		}
         }
