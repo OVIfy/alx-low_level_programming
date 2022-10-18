@@ -8,14 +8,14 @@ int _islower(char c)
 {
 	int valid = 0;
 	char l = 'a';
-	
+
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		if(l == c)
+		if (l == c)
 		{
 			valid = 1;
 			break;
 		}
         }
-	return valid;
+	return (valid);
 }
