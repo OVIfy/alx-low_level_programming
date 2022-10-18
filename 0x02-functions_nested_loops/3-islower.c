@@ -17,5 +17,6 @@ int _islower(char c)
 			break;
 		}
         }
+
 	return (valid);
 }
