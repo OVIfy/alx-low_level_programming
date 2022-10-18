@@ -21,7 +21,7 @@ int print_sign(int num)
 	}
 	if (num == 0)
 	{
-		_putchar("0");
+		_putchar('0');
 		valid = 0;
 	}
 	return (valid);
