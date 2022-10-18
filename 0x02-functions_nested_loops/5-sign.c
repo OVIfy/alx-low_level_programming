@@ -21,9 +21,9 @@ int print_sign(int num)
 	}
 	if (num == 0)
 	{
-		printf("0");
+		_putchar("0");
 		valid = 0;
 	}
-	return valid;
+	return (valid);
 }
 
