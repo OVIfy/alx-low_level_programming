@@ -4,6 +4,7 @@
 * print_alphabet_x10 - prints alphabet 10 times
 * Return: returns nothing
 */
+
 void print_alphabet_x10(void)
 {
 	char ch = 'a';
