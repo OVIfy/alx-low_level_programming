@@ -4,7 +4,7 @@
 * times_table - ks if argument is an alphabet
 * Return: 1 if number is a small letter , 0 if it isn't
 */
-int times_table()
+void times_table()
 {
 	int i = 0;
 	int j = 0;
