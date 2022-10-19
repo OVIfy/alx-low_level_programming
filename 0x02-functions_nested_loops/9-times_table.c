@@ -22,7 +22,10 @@ void times_table()
 		for (j = 0; j <= 9; j++)
 		{
 			m = i * j;
-			print_long(m);
+			if (m > 0)
+				print_long(m);
+			else
+				_putchar('0');
 			_putchar(',');
 			_putchar(' ');
 		}
