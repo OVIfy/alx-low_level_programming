@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include "main.h"
-void print_long(int value) {
+/**
+* print_long - prints characters as numbers
+* Return: none
+*/
+void print_long(int value) 
+{
 	if(value != 0)
-        {
-                print_long(value/10);
-                _putchar((value%10) + '0');
+	{
+		print_long(value/10);
+		_putchar((value%10) + '0');
 	}
 }
 /**
