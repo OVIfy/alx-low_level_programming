@@ -2,18 +2,19 @@
 #include "main.h"
 /**
 * print_long - prints characters as numbers
+* @value: number to be printed
 * Return: none
 */
 void print_long(int value) 
 {
 	if(value != 0)
 	{
-		print_long(value/10);
-		_putchar((value%10) + '0');
+		print_long(value / 10);
+		_putchar((value	% 10) + '0');
 	}
 }
 /**
-* times_table - ks if argument is an alphabet
+* void times_table - ks if argument is an alphabet
 * Return: 1 if number is a small letter , 0 if it isn't
 */
 void times_table()
