@@ -7,9 +7,15 @@
 void print_to_98(int start)
 {
 	int i = 0;
-	
+
 	for (i = start; i <= 98; i++)
-		printf("%u, ",i);
+	{
+		if (i <  98)
+			printf("%d, ",i)
+		else
+			printf("%d",i)
+	}
+	printf("\n")
 	return;
 
 }
