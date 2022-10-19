@@ -31,10 +31,3 @@ void times_table()
 		_putchar('\n');
 	}
 }
-void print_long(int value) {
-   if(value != 0)
-	{
-		print_long(value/10);
-		_putchar((value%10) + '0');
-	}
-}
