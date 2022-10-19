@@ -1,11 +1,28 @@
 #include <stdio.h>
-
-int main()
+#include "main.h"
+/**
+* _abs - for returning absolut value of a number re
+* @num: number to be absoluted
+* Return: absoluted integert
+*/
+int print_last_digit(int num)
 {
-	int i = 0;
-	for (i = 00; i <= 20; i++)
-	{
-		printf("%u",i);
-	{
-	return (0);
+	int l;
+
+	l = num % 10;
+	if (l == 0)
+		l = 48;
+	else if (l > 0)
+		l = 48 + l;
+	else
+		l = 48 + (-l);
+	_putchar(l);
+ 	return (l - 48);
+}
+
+int main(void)
+{
+	int r = print_last_digit(-22349);
+	_putchar(r + '0');
+	return 0;
 }
