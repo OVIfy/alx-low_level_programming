@@ -5,19 +5,19 @@
 * @value: number to be printed
 * Return: none
 */
-void print_long(int value) 
+void print_long(int value)
 {
-	if(value != 0)
+	if (value != 0)
 	{
 		print_long(value / 10);
 		_putchar((value	% 10) + '0');
 	}
 }
 /**
-* void times_table - ks if argument is an alphabet
+* times_table - ks if argument is an alphabet
 * Return: 1 if number is a small letter , 0 if it isn't
 */
-void times_table()
+void times_table(void)
 {
 	int i = 0;
 	int j = 0;
