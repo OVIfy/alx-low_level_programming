@@ -19,8 +19,3 @@ int print_last_digit(int num)
 	_putchar(l);
 	return (l);
 }
-int main(void)
-{
-	print_last_digit(-56650);
-	return 0;
-}
