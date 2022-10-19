@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _abs - for returning absolut value of a number re
+* print_last_digit - for returning absolut value of a number re
 * @num: number to be absoluted
 * Return: absoluted integert
 */
