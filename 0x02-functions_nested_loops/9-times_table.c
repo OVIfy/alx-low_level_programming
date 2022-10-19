@@ -1,5 +1,14 @@
 #include <stdio.h>
 #include "main.h"
+void print_long(int value) {
+	if(value != 0)
+        {
+                print_long(value/10);
+                _putchar((value%10) + '0');
+        }
+	else
+		_putchar('0');
+}
 /**
 * times_table - ks if argument is an alphabet
 * Return: 1 if number is a small letter , 0 if it isn't
@@ -15,11 +24,17 @@ void times_table()
 		for (j = 0; j <= 9; j++)
 		{
 			m = i * j;
-			_putchar((m%10) + '0');
+			print_long(m);
 			_putchar(',');
 			_putchar(' ');
 		}
 		_putchar('\n');
 	}
 }
-
+void print_long(int value) {
+   if(value != 0)
+	{
+		print_long(value/10);
+		_putchar((value%10) + '0');
+	}
+}
