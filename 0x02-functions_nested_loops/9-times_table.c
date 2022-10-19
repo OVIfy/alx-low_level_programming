@@ -5,9 +5,7 @@ void print_long(int value) {
         {
                 print_long(value/10);
                 _putchar((value%10) + '0');
-        }
-	else
-		_putchar('0');
+	}
 }
 /**
 * times_table - ks if argument is an alphabet
