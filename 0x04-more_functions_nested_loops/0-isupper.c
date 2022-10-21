@@ -7,10 +7,12 @@
 
 int _isdigit(int c)
 {
-	int A = (char)c;
+	char d = 'A';
 
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
+	for (d = 'A'; d <= 'Z'; d++)
+	{
+		if (c == d)
+			return (1);
+	}
+	return (0);
 }
