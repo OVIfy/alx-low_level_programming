@@ -5,7 +5,7 @@
 * Return: returns 1 if c is digit else 0
 */
 
-int _isdigit(int c)
+int _isupper(int c)
 {
 	char d = 'A';
 
