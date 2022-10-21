@@ -7,12 +7,10 @@
 
 int _isupper(int c)
 {
-	char d = 'A';
+	char d = (char)c;
 
-	for (d = 'A'; d <= 'Z'; d++)
-	{
-		if (c == d)
-			return (1);
-	}
+	if (d >= 65 && d <= 90)
+		return (1);
+
 	return (0);
 }
