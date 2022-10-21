@@ -9,7 +9,7 @@ void print_triangle(int n)
 {
 	int i = 0;
 	int j = 0;
-	int b = n; 
+	int b = n;
 
 	if (n > 0)
 		for (i = 1; i <= n; i++)
@@ -19,9 +19,9 @@ void print_triangle(int n)
 				if ( j >= b )
 					_putchar('#');
 				else
-					_putchar(' ');	
+					_putchar(' ');
 			}
-			
+
 			b--;
 			_putchar('\n');
 		}
