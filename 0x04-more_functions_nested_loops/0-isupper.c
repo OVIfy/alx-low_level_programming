@@ -9,7 +9,7 @@ int _isdigit(int c)
 {
 	int A = (char)c;
 
-	if (A >= 65 && A <= 90)
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
